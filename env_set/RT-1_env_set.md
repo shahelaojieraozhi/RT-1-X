@@ -99,7 +99,7 @@ after modify  tensor2robot/utils/tensorspec_utils.py   （show line 30~34）
 
 ```
 from google.protobuf import text_format
-from tensorflow import framework as tf
+import tensorflow as tf
 
 nest = tf.nest
 TSPEC = tf.TensorSpec
